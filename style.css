@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+
+
+
+*{
+    margin: 0;
+}
+body{
+  
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(1, 18, 66) 0%, rgb(0, 53, 199) 50%, rgb(73, 167, 255) 100%);
+}
+
+.container{
+    position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(1, 18, 66) 0%, rgb(0, 53, 199) 50%, rgb(73, 167, 255) 100%);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    
+
+
+    width: 700px;
+    height: 470px;
+    
+    border-radius: 30px;
+
+     box-shadow: 0px 0px 20px rgba(0, 0,0,0.5); 
+    /* box-shadow: inset 4px 4px 10px  #00000080,  inset -4px -4px 10px  #4b4a4a80; */
+    
+
+}
+.conteudo{
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 470px;
+    width: 330px;
+    
+    
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* box-shadow: 0px 0px 20px rgba(0, 0,0,0.5); */
+    box-shadow: inset 4px 4px 10px  #00000080,  inset -4px -4px 10px  #4b4a4a80;
+    
+}
+
+.titulo{
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    left: 90px;
+    top: 40px;
+    font-size: 45px;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+.inputsIndex input[placeholder]{
+ background-color: #dfdfdf;
+
+}
+
+.email{   
+    position: absolute;
+    top: 130px;
+    padding: 35px;
+
+}
+.email input[placeholder]{
+    width: 210px;
+    height: 40px;
+    border-radius: 30px;
+   font-size: 15px;
+   padding: 10px;
+   border-color: rgba(0, 0,0,0.5);
+   box-shadow: 0px 0px 10px rgba(0, 0,0,0.5);
+
+
+   /* icon image e-mail */
+    background-image: url(iconE-mail.png);
+     background-size: 25px 25px;
+    background-position: 5px center;       
+    padding-left: 40px; 
+    background-repeat: no-repeat; 
+
+
+}
+.senha{
+    position: absolute;
+    top: 210px;
+    padding: 35px;
+}
+.senha input[placeholder]{
+    width: 210px;
+    height: 40px;
+    border-radius: 30px;
+   font-size: 15px;
+   padding: 10px;
+   border-color: rgba(0, 0,0,0.5);
+   box-shadow: 0px 0px 20px rgba(0, 0,0,0.5);
+
+   /* icon imagem senha */
+   background-image: url(iconSenha.png);
+    background-size: 25px 25px;
+    background-position: 5px center;       
+    padding-left: 40px; 
+    background-repeat: no-repeat; 
+
+}
+
+.opcao1{
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    
+}
+.opcao1  label{
+color:rgb(0, 47, 255);
+font-size: 13px;
+
+}
+.trocarSenha{
+    position: absolute;
+    top: 322px;
+    left: 180px;
+    color:rgb(0, 47, 255);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+
+.botao{
+    position: absolute;
+    top: 365px;
+    left: 60px;
+}
+.botao input[type="button"]{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(1, 18, 66) 0%, rgb(0, 53, 199) 50%, rgb(73, 167, 255) 100%);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    
+    
+    box-shadow: inset 4px 4px 10px  #00000080,  inset -4px -4px 10px  #c0c0c080;
+}
+.botao :hover{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.novo{
+    position: absolute;
+    top: 425px;
+    left: 75px;
+    font-size: 13px;
+
+}
+.cadastro{
+    position: absolute;
+    top: 425px;
+    left: 140px;
+    color:rgb(0, 47, 255);
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+.bemvindo{
+    position: absolute;
+    top: 30px;
+    left: 410px;
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+     text-shadow: 2px 2px 4px rgba(162, 151, 255, 0.5);
+    
+}
+
+/* Pagina Cadastro */
+
+.conteudoCadastro{
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    
+    
+  
+
+    height: 470px;
+    width: 100%;
+    
+    
+    border-radius: 30px;
+    box-shadow: inset 4px 4px 10px  #00000080,  inset -4px -4px 10px  #4b4a4a80;
+    
+}
+.tituloCadastro{
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    right: -60px;
+    top: 40px;
+    left: 90px;
+    color: rgb(4, 0, 255);
+    text-shadow: 2px 2px 4px rgba(12, 1, 112, 0.5);
+ 
+}
+.inputsCadastro input[placeholder]{
+    border-radius: 40px;
+   border-color: rgba(0, 0,0,0.5);
+   box-shadow: 0px 0px 10px rgba(0, 0,0,0.5);
+   height: 50px;
+   width: 300px;
+   background-color: #dfdfdf;
+   font-size: 17px;
+
+    position: relative;
+   right: -90px;
+   top: 40px;
+
+    background-size: 25px 25px;
+    background-position: 5px center;       
+    padding-left: 40px; 
+    background-repeat: no-repeat; 
+   
+}
+
+.inputsCadastro{
+    display:grid;
+    position: relative;
+    top: 50px;
+  
+    
+}
+
+.inputNome{
+    position: relative;
+    top: -15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputNome input[placeholder]{
+    background-image: url(nomeIcon.png);
+    
+}
+.inputE-mailCadastro{
+
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.inputE-mailCadastro input[placeholder]{
+    background-image: url(iconE-mail.png);
+}
+
+.inputSenhaCadastro{
+    position: relative;
+    top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.inputSenhaCadastro input[placeholder]{
+    background-image: url(iconSenha.png);
+}
+
+.imgHack{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+.botaoCadastrar{
+    position: relative;
+    top: 90px;
+    left: 310px;
+   
+}
+
+
+.botaoCadastrar input[type="button"]{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(1, 18, 66) 0%, rgb(0, 53, 199) 50%, rgb(73, 167, 255) 100%);
+    width: 260px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+
+    box-shadow: inset 4px 4px 10px  #00000080,  inset -4px -4px 10px  #4b4a4a80;
+
+}
+.botaoCadastrar :hover{
+    cursor: pointer;
+  
+}
+
+
+/* loginOK */
+
+.conteudoLogin{
+       background-color: rgb(255, 255, 255);
+    position:relative;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 470px;
+    width: 100%;
+    
+    
+  
+    border-radius: 30px;
+    /* box-shadow: 0px 0px 20px rgba(0, 0,0,0.5); */
+    box-shadow: inset 4px 4px 10px  #00000080,  inset -4px -4px 10px  #4b4a4a80;
+    
+
+}
+
+.containerLogin{
+  position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(1, 18, 66) 0%, rgb(0, 53, 199) 50%, rgb(73, 167, 255) 100%);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    
+
+
+    width: 500px;
+    height: 470px;
+    
+    border-radius: 30px;
+
+     box-shadow: 0px 0px 20px rgba(0, 0,0,0.5); 
+
+    
+}
+
+.tituloLogin{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+     position: relative;
+    top: 15px;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);   
+}
+
+
+
+.mensagemPrincipal{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 160px;
+    top: 100px;
+    background: linear-gradient(90deg, rgb(91, 127, 226) 0%, rgb(6, 69, 243) 50%, rgb(4, 56, 105) 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);    
+
+  
+}
+.botaoSair{
+    position: relative;
+    top: 210px;
+    left: 150px;
+
+}
+
+.botaoSair input[type="button"]{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(1, 18, 66) 0%, rgb(0, 53, 199) 50%, rgb(73, 167, 255) 100%);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    
+    
+    box-shadow: inset 4px 4px 10px  #00000080,  inset -4px -4px 10px  #6b6b6b80;
+}
+.botaoSair :hover{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#assinatura{
+
+
+   position: fixed;         
+    bottom: 10px;           
+    left: 50%;              
+    transform: translateX(-50%); 
+
+}
+
+
+
+@media (max-width: 480px) {
+  /* Estilos aplicados quando a tela tiver no máximo 768px de largura */
+  .container{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-top: 200px;
+    
+    
+    
+  }
+  .conteudo{
+    width: 190px;
+    height: 300px;
+
+  
+
+
+  }
+
+    .inputsIndex input[placeholder]{
+        width: 90px;
+        height: 20px;
+        position: absolute;
+        top: -30px;
+        margin-left: -15px;
+    
+    }
+
+    .titulo{
+         position: relative;
+        font-size: 30px;
+        margin-left: -45px;
+     
+    }
+    
+    .email input[placeholder]{
+        font-size: 10px;
+        
+    }
+     
+    .senha input[placeholder]{
+        font-size: 10px;
+        top: -50px;
+
+    }
+    
+    .botao{
+        top: 230px;
+        left: 20px;
+
+    }
+    .botao input[type="button"]{
+        height: 30px;
+        width: 140px;
+    }
+
+    .opcao1{
+        display: none;
+
+    }
+
+    .trocarSenha{
+        display: none;
+    }
+    .novo{
+      display: none;
+    
+    }
+    .cadastro{
+        top: 270px;
+      left: 40px;
+      font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    }
+
+
+
+    /* TelaCadastro */
+
+    .conteudoCadastro{
+    width:100%;
+    height: 300px;
+
+    }
+    .tituloCadastro{
+        font-size: 30px;
+        left: 0;
+        top: 10px;
+
+    }
+    .inputsCadastro{
+      left: -95px;
+      top: -10px;
+    }
+
+    .inputE-mailCadastro input[placeholder]{
+        height: 40px;
+        width: 150px;
+    }
+      .inputNome input[placeholder]{
+         width: 150px;
+         height: 40px;
+
+       }
+
+       .inputSenhaCadastro input[placeholder]{
+         width: 150px;
+         height: 40px;
+         
+
+       }
+       .imgHack{
+        display: none;
+       }
+
+
+        .botaoCadastrar{
+            left: 180px;
+            top: 65px;
+        }
+       .botaoCadastrar input[type="button"]{
+        width: 120px;
+
+       }
+
+       /* tela loginOK */
+    
+       .containerLogin{
+            width: 300px;
+           height: 300px;
+            position: relative;
+             margin-top: 200px;
+    
+        
+       }
+       .conteudoLogin{
+    width: 100%;
+    height: 300px;
+    font-size: 10px;
+}
+    .mensagemPrincipal{
+        left: 80px;
+        top: 49px;
+         font-size: 18px;   
+
+    }
+    .botaoSair{
+        top: 120px;
+        left: 50px
+    }
+  
+
+}
