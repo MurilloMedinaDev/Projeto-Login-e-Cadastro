@@ -418,14 +418,13 @@ font-size: 13px;
 
 @media (max-width: 480px) {
 
-    body{
+    *{
         overflow-x: none;
     }
-        
+
     .bemvindo{
         display: none;
     }
-
 
 
 
@@ -585,5 +584,3 @@ font-size: 13px;
   
 
 }
-
-
