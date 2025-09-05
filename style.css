@@ -417,6 +417,14 @@ font-size: 13px;
 
 
 @media (max-width: 480px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+
+
   /* Estilos aplicados quando a tela tiver no máximo 768px de largura */
   .container{
     width: 300px;
@@ -567,6 +575,8 @@ font-size: 13px;
         top: 120px;
         left: 50px
     }
+
+    
   
 
 }
